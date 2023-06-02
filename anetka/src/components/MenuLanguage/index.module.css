@@ -1,0 +1,50 @@
+.container {
+    width: 100%;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    z-index: 1000;
+}
+
+.box {
+    width: 90%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.phoneBox,
+.emailBox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    padding-left: 20px;
+}
+
+.icon {
+    margin-right: 5px;
+}
+
+@media(max-width: 720px) {
+    .box {
+        justify-content: center;
+    }
+}
+
+@media(max-width: 350px) {
+    .phoneBox,
+    .emailBox {
+        font-size: 0.8rem;
+    }
+}
+
+@media(max-width: 290px) {
+        .phoneBox,
+    .emailBox {
+        font-size: 0.6rem;
+    }
+}

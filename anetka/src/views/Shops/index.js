@@ -1,0 +1,23 @@
+import styles from "./index.module.css"
+import Menu from '../../components/Menu';
+import FirstView from '../../components/FirstView';
+import Footer from "../../components/Footer";
+import Counter from "../../components/Counter";
+import ShopLocation from "../../components/ShopLocation";
+
+const Shops = () => {
+  return (
+    <div>
+      <Menu />
+      <FirstView />
+      <div className={styles.gap}></div>
+      <ShopLocation />
+      <div className={styles.gap}></div>
+      <Counter />
+      <div className={styles.gap}></div>
+      <Footer />
+    </div>
+  )
+};
+
+export default Shops;

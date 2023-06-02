@@ -1,0 +1,385 @@
+.container {
+    width: 100%;
+    min-height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.box {
+    min-height: 100px;
+    width: 90%;
+    display: flex;
+}
+
+.swiperBox {
+    width: 100%;
+    min-height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.toolBox {
+    width: 100%;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.text {
+    font-size: 2.2rem;
+    color: #e383b2;
+    font-weight: 900;
+}
+
+.slide {
+    width: 100%;
+    height: 725px;
+    border: 1px solid #000;
+    padding: 10px;
+}
+
+.textBox {
+    width: 100%;
+    padding-top: 10px;
+}
+
+.photo {
+    width: 100%;
+}
+
+.dateBox {
+    display: flex;
+    align-items: center;
+}
+
+.clock {
+    width: 25px;
+    height: 25px;
+    background-color: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-size: 1rem;
+}
+
+.date {
+    font-family: 'Poppins';
+    font-weight: 700;
+    margin-left: 10px;
+}
+
+.title {
+    font-weight: 900;
+    font-size: 1.5rem;
+}
+
+.titleBox {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: space-around;
+}
+
+.content {
+    margin-top: 20px;
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+@media(max-width: 2460px) {
+    .slide {
+        height: 675px;
+    }
+}
+
+@media(max-width: 2240px) {
+    .slide {
+        height: 600px;
+    }
+}
+
+@media(max-width: 2140px) {
+    .slide {
+        height: 550px;
+    }
+}
+
+@media(max-width: 2000px) {
+    .slide {
+        height: 500px;
+    }
+}
+
+@media(max-width: 1600px) {
+    .slide {
+        height: 450px;
+    }
+}
+
+@media(max-width: 1450px) {
+    .slide {
+        height: 400px;
+    }
+
+    .title {
+        font-size: 1.25rem;
+    }
+
+    .content {
+        font-size: 0.75rem;
+    }
+}
+
+@media(max-width: 1280px) {
+    .slide {
+        height: 350px;
+    }
+
+    .title {
+        font-size: 1.1rem;
+    }
+
+    .content {
+        margin-top: 5px;
+    }
+
+    .titleBox {
+        margin-top: 10px;
+    }
+
+}
+
+@media(max-width: 1200px) {
+    .slide {
+        height: 450px;
+    }
+
+    .title {
+        margin-top: 10px;
+        font-size: 1.4rem;
+    }
+
+    .content {
+        font-size: 1rem;
+        margin-top: 10px;
+    }
+}
+
+@media(max-width: 1075px) {
+    .slide {
+        height: 400px;
+    }
+
+    .title {
+        margin-top: 5px;
+        font-size: 1.3rem;
+    }
+
+    .content {
+        font-size: 0.8rem;
+        margin-top: 5px;
+    }
+}
+
+@media(max-width: 1024px) {
+    .box {
+        width: 98%;
+    }
+
+    .content {
+        margin-top: 10px;
+    }
+}
+
+@media(max-width: 935px) {
+    .slide {
+        height: 375px;
+    }
+
+    .clock {
+        width: 20px;
+        height: 20px;
+        font-size: 0.75rem;
+    }
+
+    .date {
+        font-size: 0.8rem;
+        margin-left: 5px;
+    }
+}
+
+@media(max-width: 880px) {
+    .title {
+        font-size: 1.1rem;
+    }
+
+    .content {
+        margin-top: 5px;
+    }
+}
+
+@media(max-width: 810px) {
+    .slide {
+        height: 350px;
+    }
+
+    .titleBox {
+        margin-top: 5px;
+    }
+
+    .title {
+        font-size: 1rem;
+        margin-top: 10px;
+    }
+
+    .content {
+        margin-top: 10px;
+        font-size: 0.7rem;
+    }
+}
+
+@media(max-width: 720px) {
+    .slide {
+        height: 450px;
+    }
+
+    .title {
+        font-size: 1.4rem;
+    }
+
+    .content {
+        font-size: 0.95rem;
+    }
+    
+    .clock {
+        width: 30px;
+        height: 30px;
+        font-size: 1rem;
+    }
+
+    .date {
+        font-size: 1rem;
+        margin-left: 10px;
+    }
+}
+
+@media(max-width: 650px) {
+    .slide {
+        height: 400px;
+    }
+
+    .content {
+        font-size: 0.8rem;
+    }
+
+    .clock {
+        width: 25px;
+        height: 25px;
+        font-size: 0.9rem;
+    }
+
+    .date {
+        font-size: 0.9rem;
+    }
+
+    .title {
+        font-size: 1.2rem;
+    }
+}
+
+@media(max-width: 580px) {
+    .slide {
+        height: 350px;
+    }
+
+    .content,
+    .title {
+        margin-top: 5px;
+    }
+
+    .content {
+        font-size: 0.75rem;
+    }
+}
+
+@media(max-width: 520px) {
+    .slide {
+        height: 450px;
+        width: 100%;
+    }
+
+    .clock {
+        width: 30px;
+        height: 30px;
+        font-size: 1rem;
+    }
+
+    .date {
+        font-size: 1rem;
+    }
+
+    .title {
+        margin-top: 10px;
+        font-size: 1.3rem;
+    }
+
+    .content {
+        margin-top: 10px;
+        font-size: 0.9rem;
+    }
+}
+
+@media(max-width: 480px) {
+    .slide {
+        height: 400px;
+    }
+}
+
+@media(max-width: 420px) {
+    .slide {
+        height: 450px;
+    }
+}
+
+@media(max-width: 390px) {
+    .slide {
+        height: 430px;
+    }
+}
+
+@media(max-width: 350px) {
+    .slide {
+        height: 350px;
+    }
+
+    .title {
+        margin-top: 5px;
+        font-size: 1.1rem;
+    }
+
+    .content {
+        margin-top: 5px;
+        font-size: 0.8rem;
+    }
+
+    .clock {
+        width: 20px;
+        height: 20px;
+        font-size: 0.85rem
+    }
+
+    .date {
+        font-size: 0.85rem;
+    }
+}
+
+@media(max-width: 260px) {
+    .slide {
+        height: 350px;
+    }
+}

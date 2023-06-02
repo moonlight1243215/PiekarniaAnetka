@@ -1,0 +1,41 @@
+.container {
+    width: 100%;
+    min-height: 500px;
+    display: flex;
+    justify-content: center;
+}
+
+.box {
+    width: 80%;
+    min-height: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.titleBox {
+    height: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.title {
+    font-size: 3rem;
+    color: #000;
+    font-weight: 700;
+}
+
+.contentBox {
+    width: 100%;
+    min-height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+}
+
+.content {
+    font-size: 1.25rem;
+}
